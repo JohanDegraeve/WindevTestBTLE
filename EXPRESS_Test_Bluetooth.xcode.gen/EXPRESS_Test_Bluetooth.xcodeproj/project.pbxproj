@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7787CE7564A18EAD3717118A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F8099ED8F478C5A28A9D76 /* AddressBook.framework */; };
+		1F8BF2D787A4FABCEB9DA9C9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6487191D884FB61F96192A7 /* MobileCoreServices.framework */; };
+		3C7EB134D17C4CF9AD52671E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F865D06651D980D8E159EB29 /* CoreGraphics.framework */; };
+		3E875C10EECE1C98E24FE541 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CCAC249B606B79A7A584EB /* CoreBluetooth.framework */; };
+		6172132B0524F575057E904F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ED7EFF5A8DD1ACC6486C92 /* SystemConfiguration.framework */; };
+		405EF3CF0DAC2D88EBBED57A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922A649ECCCCAC776F2607E6 /* UIKit.framework */; };
+		343BEF59C7754FCE6B5D89D7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB298045FF204A7F9C49331 /* Security.framework */; };
+		09BF80AE62AD521D6D3F10AA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FB50D49CE92D21A9F0E78C /* MediaPlayer.framework */; };
+		856040BD3780064D44BB0FD2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93118789BBD57D82799E670 /* AVFoundation.framework */; };
+		9357606AABF3A90644DC5F02 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB129BCCC440DC61122CCA8 /* AddressBookUI.framework */; };
+		EEA692FA2916FF2E04785285 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1E23DF16D6EE65815BB7CD /* CoreFoundation.framework */; };
+		4EFAFABBD5FD5DFC99278F4F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44360F13901CFE2D2BC88DCC /* AudioToolbox.framework */; };
+		8C2D8E0BC13683328E4322CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9974C6C794264308E8F8DF8A /* QuartzCore.framework */; };
+		AEDF61F5A49DE7C827097D50 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180A1B1460DBF6687C176414 /* CoreVideo.framework */; };
+		1EBC9A0B7EE7707CF326FAC6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C08471BA5E35C892EB91A7 /* CoreMedia.framework */; };
+		7ACCEC346E3A5E32A3D53250 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594D1FA090614FDDA314559 /* ImageIO.framework */; };
+		3A7EB4280BDD1B644159C019 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5390A9949F7202865C36ADB /* EventKitUI.framework */; };
+		DE1CD8508CD5C49E9F080C01 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35926FD441A78848FE7A3481 /* MessageUI.framework */; };
+		297EFAC2D65DCFB78960463D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A432BA065B49300CC3BA4B7 /* Foundation.framework */; };
+		B197A2626C1F10A97042455B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53BB866BA2EE7EF5B9944C3 /* CoreText.framework */; };
+		9B446B1C5AB6D395A0476BFA /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30D400AED380F3AD3FD82FF /* EventKit.framework */; };
+		264D7E11F9AE617E74566738 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D249786DEEC3EAD277023C62 /* MapKit.framework */; };
+		76C906007FA646023271BFD1 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67867F59EC241AC4F03D20B8 /* libiconv.tbd */; };
+		D06DA0FEF06D7F40A423A2BF /* libwd210vm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ECD98155150F84D2950F53 /* libwd210vm.a */; };
+		0A4919D33320791B6247D3A8 /* libwd210obj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AE6142516E3BB634005193 /* libwd210obj.a */; };
+		694BF041B10F388746719591 /* libwd210mat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A510E9EE1591A9479C3186 /* libwd210mat.a */; };
+		AD2D068EAB1A20FEB6C41CEB /* libwd210xml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FE537EA06F4AF4A18AEDC0 /* libwd210xml.a */; };
+		30B43A05A331BFAA462E8889 /* libwd210std.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3062A22DE1163FB774D34418 /* libwd210std.a */; };
+		0457E2ECDF8C59DBC2B7548D /* libwd210com.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8AE085143A235DF99A93997 /* libwd210com.a */; };
+		1BD87B07ACAD9125D94F7288 /* libwd210pnt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBD2513007C94EEAD71F6E4 /* libwd210pnt.a */; };
+		3AEB4F4D4B38D174E3D3ADF9 /* libwd210core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9E792A52A3E2593B284EE /* libwd210core.a */; };
+		19AE9BBBCCAF71FE66C66693 /* libwd210mdl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ED8D33F80B3FEAB9C7619 /* libwd210mdl.a */; };
+		EB1111DEAAA62C8AB3AD78F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D11BDA1B46F03B5ACDC238E9 /* main.m */; };
+		94685AC09694D284235998BE /* WDAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF131B708A19851A27A1A9A9 /* WDAppDelegate.mm */; };
+		61A13B00E9245702D8020644 /* EXPRESS_Test_Bluetooth.wil in Resources */ = {isa = PBXBuildFile; fileRef = 25E68C91ECE72FC63D53FB2B /* EXPRESS_Test_Bluetooth.wil */; };
+		780DD4FC1A89C7485433B1C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE14374C03D20363B9DA97C0 /* Images.xcassets */; };
+		FE8EE547BECC5AAB5BDEDC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78020140CC5C96FDA0739E00 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71F8099ED8F478C5A28A9D76 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; };
+		B6487191D884FB61F96192A7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = "System/Library/Frameworks/MobileCoreServices.framework"; sourceTree = SDKROOT; };
+		F865D06651D980D8E159EB29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		71CCAC249B606B79A7A584EB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = "System/Library/Frameworks/CoreBluetooth.framework"; sourceTree = SDKROOT; };
+		00ED7EFF5A8DD1ACC6486C92 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; };
+		922A649ECCCCAC776F2607E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		EAB298045FF204A7F9C49331 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; };
+		48FB50D49CE92D21A9F0E78C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; };
+		E93118789BBD57D82799E670 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; };
+		6AB129BCCC440DC61122CCA8 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = "System/Library/Frameworks/AddressBookUI.framework"; sourceTree = SDKROOT; };
+		0A1E23DF16D6EE65815BB7CD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = "System/Library/Frameworks/CoreFoundation.framework"; sourceTree = SDKROOT; };
+		44360F13901CFE2D2BC88DCC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; };
+		9974C6C794264308E8F8DF8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; };
+		180A1B1460DBF6687C176414 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = "System/Library/Frameworks/CoreVideo.framework"; sourceTree = SDKROOT; };
+		27C08471BA5E35C892EB91A7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = "System/Library/Frameworks/CoreMedia.framework"; sourceTree = SDKROOT; };
+		8594D1FA090614FDDA314559 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; };
+		F5390A9949F7202865C36ADB /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = "System/Library/Frameworks/EventKitUI.framework"; sourceTree = SDKROOT; };
+		35926FD441A78848FE7A3481 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; };
+		5A432BA065B49300CC3BA4B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		A53BB866BA2EE7EF5B9944C3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = "System/Library/Frameworks/CoreText.framework"; sourceTree = SDKROOT; };
+		A30D400AED380F3AD3FD82FF /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = "System/Library/Frameworks/EventKit.framework"; sourceTree = SDKROOT; };
+		D249786DEEC3EAD277023C62 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		67867F59EC241AC4F03D20B8 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = "usr/lib/libiconv.tbd"; sourceTree = SDKROOT; };
+		F5ECD98155150F84D2950F53 /* libwd210vm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd210vm.a; path = "lib/libwd210vm.a"; sourceTree = "<group>"; };
+		B6AE6142516E3BB634005193 /* libwd210obj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd210obj.a; path = "lib/libwd210obj.a"; sourceTree = "<group>"; };
+		B8A510E9EE1591A9479C3186 /* libwd210mat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd210mat.a; path = "lib/libwd210mat.a"; sourceTree = "<group>"; };
+		27FE537EA06F4AF4A18AEDC0 /* libwd210xml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd210xml.a; path = "lib/libwd210xml.a"; sourceTree = "<group>"; };
+		3062A22DE1163FB774D34418 /* libwd210std.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd210std.a; path = "lib/libwd210std.a"; sourceTree = "<group>"; };
+		E8AE085143A235DF99A93997 /* libwd210com.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd210com.a; path = "lib/libwd210com.a"; sourceTree = "<group>"; };
+		3EBD2513007C94EEAD71F6E4 /* libwd210pnt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd210pnt.a; path = "lib/libwd210pnt.a"; sourceTree = "<group>"; };
+		8AA9E792A52A3E2593B284EE /* libwd210core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd210core.a; path = "lib/libwd210core.a"; sourceTree = "<group>"; };
+		CC1ED8D33F80B3FEAB9C7619 /* libwd210mdl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd210mdl.a; path = "lib/libwd210mdl.a"; sourceTree = "<group>"; };
+		D11BDA1B46F03B5ACDC238E9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D392F2B67CBB22C3C4F6EBD /* WDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDAppDelegate.h; sourceTree = "<group>"; };
+		EF131B708A19851A27A1A9A9 /* WDAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WDAppDelegate.mm; sourceTree = "<group>"; };
+		D945E9313E6AEA1AF751AEC9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		25E68C91ECE72FC63D53FB2B /* EXPRESS_Test_Bluetooth.wil */ = {isa = PBXFileReference; lastKnownFileType = file; path = EXPRESS_Test_Bluetooth.wil; sourceTree = "<group>"; };
+		AE14374C03D20363B9DA97C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78020140CC5C96FDA0739E00 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E44F05995FDAD4542482124B /* EXPRESS_Test_Bluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EXPRESS_Test_Bluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D924A1715D2D9B54F95CBE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7787CE7564A18EAD3717118A /* AddressBook.framework in Frameworks */,
+				1F8BF2D787A4FABCEB9DA9C9 /* MobileCoreServices.framework in Frameworks */,
+				3C7EB134D17C4CF9AD52671E /* CoreGraphics.framework in Frameworks */,
+				3E875C10EECE1C98E24FE541 /* CoreBluetooth.framework in Frameworks */,
+				6172132B0524F575057E904F /* SystemConfiguration.framework in Frameworks */,
+				405EF3CF0DAC2D88EBBED57A /* UIKit.framework in Frameworks */,
+				343BEF59C7754FCE6B5D89D7 /* Security.framework in Frameworks */,
+				09BF80AE62AD521D6D3F10AA /* MediaPlayer.framework in Frameworks */,
+				856040BD3780064D44BB0FD2 /* AVFoundation.framework in Frameworks */,
+				9357606AABF3A90644DC5F02 /* AddressBookUI.framework in Frameworks */,
+				EEA692FA2916FF2E04785285 /* CoreFoundation.framework in Frameworks */,
+				4EFAFABBD5FD5DFC99278F4F /* AudioToolbox.framework in Frameworks */,
+				8C2D8E0BC13683328E4322CD /* QuartzCore.framework in Frameworks */,
+				AEDF61F5A49DE7C827097D50 /* CoreVideo.framework in Frameworks */,
+				1EBC9A0B7EE7707CF326FAC6 /* CoreMedia.framework in Frameworks */,
+				7ACCEC346E3A5E32A3D53250 /* ImageIO.framework in Frameworks */,
+				3A7EB4280BDD1B644159C019 /* EventKitUI.framework in Frameworks */,
+				DE1CD8508CD5C49E9F080C01 /* MessageUI.framework in Frameworks */,
+				297EFAC2D65DCFB78960463D /* Foundation.framework in Frameworks */,
+				B197A2626C1F10A97042455B /* CoreText.framework in Frameworks */,
+				9B446B1C5AB6D395A0476BFA /* EventKit.framework in Frameworks */,
+				264D7E11F9AE617E74566738 /* MapKit.framework in Frameworks */,
+				76C906007FA646023271BFD1 /* libiconv.tbd in Frameworks */,
+				D06DA0FEF06D7F40A423A2BF /* libwd210vm.a in Frameworks */,
+				0A4919D33320791B6247D3A8 /* libwd210obj.a in Frameworks */,
+				694BF041B10F388746719591 /* libwd210mat.a in Frameworks */,
+				AD2D068EAB1A20FEB6C41CEB /* libwd210xml.a in Frameworks */,
+				30B43A05A331BFAA462E8889 /* libwd210std.a in Frameworks */,
+				0457E2ECDF8C59DBC2B7548D /* libwd210com.a in Frameworks */,
+				1BD87B07ACAD9125D94F7288 /* libwd210pnt.a in Frameworks */,
+				3AEB4F4D4B38D174E3D3ADF9 /* libwd210core.a in Frameworks */,
+				19AE9BBBCCAF71FE66C66693 /* libwd210mdl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B89865594C619AD3792B656 = {
+			isa = PBXGroup;
+			children = (
+				79DF4A3FFB0987453EE9A4F9 /* EXPRESS_Test_Bluetooth */,
+				26D993DE775E75FC2A8D3E5F /* Frameworks */,
+				67827246E100C3ABC874470B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79DF4A3FFB0987453EE9A4F9 /* EXPRESS_Test_Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				D11BDA1B46F03B5ACDC238E9 /* main.m */,
+				4D392F2B67CBB22C3C4F6EBD /* WDAppDelegate.h */,
+				EF131B708A19851A27A1A9A9 /* WDAppDelegate.mm */,
+				D945E9313E6AEA1AF751AEC9 /* Info.plist */,
+				25E68C91ECE72FC63D53FB2B /* EXPRESS_Test_Bluetooth.wil */,
+				AE14374C03D20363B9DA97C0 /* Images.xcassets */,
+				78020140CC5C96FDA0739E00 /* LaunchScreen.storyboard */,
+			);
+			path = EXPRESS_Test_Bluetooth;
+			name = EXPRESS_Test_Bluetooth;
+			sourceTree = "<group>";
+		};
+		26D993DE775E75FC2A8D3E5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F8099ED8F478C5A28A9D76 /* AddressBook.framework */,
+				B6487191D884FB61F96192A7 /* MobileCoreServices.framework */,
+				F865D06651D980D8E159EB29 /* CoreGraphics.framework */,
+				71CCAC249B606B79A7A584EB /* CoreBluetooth.framework */,
+				00ED7EFF5A8DD1ACC6486C92 /* SystemConfiguration.framework */,
+				922A649ECCCCAC776F2607E6 /* UIKit.framework */,
+				EAB298045FF204A7F9C49331 /* Security.framework */,
+				48FB50D49CE92D21A9F0E78C /* MediaPlayer.framework */,
+				E93118789BBD57D82799E670 /* AVFoundation.framework */,
+				6AB129BCCC440DC61122CCA8 /* AddressBookUI.framework */,
+				0A1E23DF16D6EE65815BB7CD /* CoreFoundation.framework */,
+				44360F13901CFE2D2BC88DCC /* AudioToolbox.framework */,
+				9974C6C794264308E8F8DF8A /* QuartzCore.framework */,
+				180A1B1460DBF6687C176414 /* CoreVideo.framework */,
+				27C08471BA5E35C892EB91A7 /* CoreMedia.framework */,
+				8594D1FA090614FDDA314559 /* ImageIO.framework */,
+				F5390A9949F7202865C36ADB /* EventKitUI.framework */,
+				35926FD441A78848FE7A3481 /* MessageUI.framework */,
+				5A432BA065B49300CC3BA4B7 /* Foundation.framework */,
+				A53BB866BA2EE7EF5B9944C3 /* CoreText.framework */,
+				A30D400AED380F3AD3FD82FF /* EventKit.framework */,
+				D249786DEEC3EAD277023C62 /* MapKit.framework */,
+				67867F59EC241AC4F03D20B8 /* libiconv.tbd */,
+				F5ECD98155150F84D2950F53 /* libwd210vm.a */,
+				B6AE6142516E3BB634005193 /* libwd210obj.a */,
+				B8A510E9EE1591A9479C3186 /* libwd210mat.a */,
+				27FE537EA06F4AF4A18AEDC0 /* libwd210xml.a */,
+				3062A22DE1163FB774D34418 /* libwd210std.a */,
+				E8AE085143A235DF99A93997 /* libwd210com.a */,
+				3EBD2513007C94EEAD71F6E4 /* libwd210pnt.a */,
+				8AA9E792A52A3E2593B284EE /* libwd210core.a */,
+				CC1ED8D33F80B3FEAB9C7619 /* libwd210mdl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67827246E100C3ABC874470B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E44F05995FDAD4542482124B /* EXPRESS_Test_Bluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BE5A015863A3740AA06919F /* EXPRESS_Test_Bluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7640AF92B222CE3F1458A8B7 /* Build configuration list for PBXNativeTarget "EXPRESS_Test_Bluetooth" */;
+			buildPhases = (
+				12AB1986673EB931AC6B09A6 /* Resources */,
+				A29E5B51F97BECBC8A6ACC63 /* Sources */,
+				D924A1715D2D9B54F95CBE61 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EXPRESS_Test_Bluetooth;
+			productName = EXPRESS_Test_Bluetooth;
+			productReference = E44F05995FDAD4542482124B /* EXPRESS_Test_Bluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773D2CFDC9565C8FD9E64792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					3BE5A015863A3740AA06919F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBA2F29C06F64E1DB6E8A31F /* Build configuration list for PBXProject "EXPRESS_Test_Bluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				Base,
+				"en-GB",
+			);
+			mainGroup = 9B89865594C619AD3792B656;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE5A015863A3740AA06919F /* EXPRESS_Test_Bluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12AB1986673EB931AC6B09A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A13B00E9245702D8020644 /* EXPRESS_Test_Bluetooth.wil in Resources */,
+				780DD4FC1A89C7485433B1C6 /* Images.xcassets in Resources */,
+				FE8EE547BECC5AAB5BDEDC45 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A29E5B51F97BECBC8A6ACC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1111DEAAA62C8AB3AD78F4 /* main.m in Sources */,
+				94685AC09694D284235998BE /* WDAppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA4CE81C08C3B378070CB967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+		A43C35725AC785376DF3FCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+			};
+			name = Release;
+		};
+		75BE7A04DC2BBC43006B23FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/EXPRESS_Test_Bluetooth\"";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEVELOPMENT_TEAM = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EXPRESS_Test_Bluetooth/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.johandegraeve.testbtwindev;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				WRAPPER_EXTENSION = app;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+			};
+			name = Debug;
+		};
+		88B9F49E957B6783664D7F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/EXPRESS_Test_Bluetooth\"";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEVELOPMENT_TEAM = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EXPRESS_Test_Bluetooth/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.johandegraeve.testbtwindev;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				WRAPPER_EXTENSION = app;
+				COPY_PHASE_STRIP = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA2F29C06F64E1DB6E8A31F /* Build configuration list for PBXProject "EXPRESS_Test_Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4CE81C08C3B378070CB967 /* Debug */,
+				A43C35725AC785376DF3FCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7640AF92B222CE3F1458A8B7 /* Build configuration list for PBXNativeTarget "EXPRESS_Test_Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BE7A04DC2BBC43006B23FA /* Debug */,
+				88B9F49E957B6783664D7F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773D2CFDC9565C8FD9E64792 /* Project object */;
+}
